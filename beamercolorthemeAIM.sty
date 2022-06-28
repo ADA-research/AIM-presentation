@@ -1,0 +1,87 @@
+% Official LaTeX beamer template of the Chair for AI Methodology (AIM), RWTH Aachen University, Aachen, Germany
+%
+% Author: Jakob Bossek (http://www.jakobbossek.de/)
+% AIM website: https://aim.rwth-aachen.de/
+%
+
+\mode<presentation>
+
+% DEFINE COLORS
+% ===
+
+% TODO: check if there is a document with all the RWTH-color palette definitions
+\definecolor{rwthlightblue}{RGB}{143, 185, 223}
+\definecolor{rwthdarkblue}{RGB}{0, 84, 159}
+
+% Some colors
+% Taken from https://github.com/matze/mtheme/blob/master/source/beamercolorthememetropolis.dtx
+\definecolor{mDarkBrown}{HTML}{604c38}
+\definecolor{mDarkTeal}{HTML}{23373b}
+\definecolor{mLightBrown}{HTML}{EB811B}
+\definecolor{mLightGreen}{HTML}{14B03D}
+\colorlet{highlight}{blue!50!black!60}
+
+% General color settings
+\setbeamercolor{normal text}{fg=mDarkTeal}
+\setbeamercolor{title like}{fg=mDarkTeal!80}
+
+% Color of title page elements
+\setbeamercolor{title page}{fg=rwthdarkblue}
+\setbeamercolor{title page header}{fg=rwthdarkblue}
+\setbeamercolor{title}{fg=rwthdarkblue}
+\setbeamercolor{subtitle}{fg=rwthdarkblue}
+\setbeamercolor{author}{fg=mDarkTeal}
+\setbeamercolor{date}{fg=gray!80}
+\setbeamercolor{institute}{fg=mDarkTeal!80}
+
+% Highlight
+\setbeamercolor{alerted text}{fg=red}
+
+% Boxes
+\setbeamercolor{block title}{fg=rwthdarkblue}
+\setbeamercolor{block body}{bg=}
+\setbeamerfont*{block title}{series=\bfseries}
+
+% Table of Contents
+\setbeamertemplate{section in toc}[sections numbered]
+\setbeamertemplate{subsection in toc}[subsections numbered]
+
+\setbeamercolor{section in toc}{fg=mDarkTeal}
+\setbeamercolor{subsection in toc}{fg=mDarkTeal!90}
+\setbeamercolor{subsubsection in toc}{fg=fg=mDarkTeal!80}
+\setbeamercolor{section in toc shaded}{fg=mDarkTeal!70}
+\setbeamercolor{subsection in toc shaded}{fg=mDarkTeal!60}
+\setbeamercolor{subsubsection in toc shaded}{fg=mDarkTeal!50}
+
+% Lists
+\setbeamertemplate{itemize item}[triangle]
+\setbeamertemplate{itemize subitem}[triangle]
+\setbeamertemplate{itemize subsubitem}[triangle]
+\setbeamercolor{itemize item}{fg=rwthdarkblue}
+\setbeamercolor{itemize subitem}{fg=rwthdarkblue}
+\setbeamercolor{itemize subsubitem}{fg=rwthdarkblue}
+
+% Frames
+\setbeamercolor{frametitle}{fg=rwthdarkblue}
+\setbeamercolor{framesubtitle}{fg=rwthdarkblue}
+
+% Blocks
+\setbeamercolor{block title}{fg=rwthdarkblue}
+%\setbeamercolor{block body}{fg=}
+%\setbeamercolor{block title alerted}{fg=}
+%\setbeamercolor{block body alerted}{fg=}
+%\setbeamercolor{example text}{fg=}
+%\setbeamercolor{block title example}{fg=rwthdarkblue}
+%\setbeamercolor{block body example}{fg=}
+
+% Colors in bib-entries
+% omit those nasty icons!
+\setbeamertemplate{bibliography item}{\insertbiblabel}
+\setbeamercolor{bibliography item}{fg=mDarkBrown,bg=}
+\setbeamercolor{bibliography entry author}{fg=mDarkTeal!80,bg=}
+\setbeamercolor{bibliography entry title}{fg=mDarkBrown,bg=}
+\setbeamercolor{bibliography entry booktitle}{fg=black,bg=}
+\setbeamercolor{bibliography entry location}{fg=black,bg=}
+\setbeamercolor{bibliography entry note}{fg=black,bg=}
+
+\mode<all>
