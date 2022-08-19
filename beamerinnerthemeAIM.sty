@@ -32,25 +32,20 @@
 \newcount\progressbar@currentprogress
 
 \setbeamertemplate{footline}{%
-  % \ifnum \theframenumber=1
-  % \else
-  \raisebox{11pt}{
-    \makebox[\paperwidth]{
+  \begin{beamercolorbox}[sep=0.8em,wd=\paperwidth,leftskip=0.5cm,rightskip=0.5cm]{footlinecolor}
       \ifnum\beamer@AIM@authorinfo=1\relax%
-      \hskip5mm\color{gray}\scriptsize{\insertshortauthor: \insertshorttitle}
+      \tiny{\insertshortauthor: \insertshorttitle}
       \fi
       \ifnum\beamer@AIM@progress=1\relax%
-      \hfill\makebox[9pt]{
-      \color{gray}\scriptsize\insertframenumber/\inserttotalframenumber}\hskip7mm
+      \hfill
+      \tiny\insertframenumber/\inserttotalframenumber
       \fi
       \ifnum\beamer@AIM@progress=0\relax%
-      \hfill\makebox[9pt]{
-      \color{gray}\scriptsize\insertframenumber}\hskip7mm
+      \hfill
+      \tiny\insertframenumber
       \fi
-    }
-  }
-  \hspace*{5pt}
-%  \fi
+  \end{beamercolorbox}%
 }
+
 \makeatother
 

@@ -9,5 +9,12 @@ Version history
 ===
 
 v1.0.0 [2022/05/04] Finished first version
-v1.1.0 [xxxx/xx/xx]
-    
+v1.1.0 [2022/08/19] Minor update:
+  * Slightly adapted padding of slide headers.
+  * Introduced RWTH-color palettes (primary and secodary): rwth-<color-name>-<intensity>
+    with color-name in {blue, black, magenta, yellow, petrol, turquoise, green, maygreen, orange,
+    red, maroon, violet, purple} and intensity in <10, 25, 50, 75, 100>.
+  * Changed background color of footer to rwth-blue-100 and adapted colors of text in slide footer for better readability
+    (prior version was barely readable).
+  * Changed color of titles and frame-titles to rwth-blue-100.
+  * Got rid of non-RWTH colors.
