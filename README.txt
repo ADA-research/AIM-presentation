@@ -18,3 +18,6 @@ v1.1.0 [2022/08/19] Minor update:
     (prior version was barely readable).
   * Changed color of titles and frame-titles to rwth-blue-100.
   * Got rid of non-RWTH colors.
+v1.2.0 [2023/03/13] Minor update:
+  * Changed citation style from alphabetic to authoryear
+  * Caption of figures and tables now do not start with 'Figure' and 'Table' respectively

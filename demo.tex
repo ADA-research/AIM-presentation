@@ -118,10 +118,8 @@ RWTH Aachen University}
   \framesubtitle{Good alternative to natbib}
 
   Sample citation:~\cite{BNPS2019}\\
-  Sample author citation:~\citeauthor{BNPS2019}\\
   Sample full citation via \verb|\fullcite|\\[0.5cm]
   \fullcite{BNPS2019}.\\[0.5cm]
-  Alternatively, one can put a list of citations in the footer via \verb|\footfullcite|\footfullcite{BNPS2019}
 
 \end{frame}
 
@@ -130,6 +128,19 @@ RWTH Aachen University}
 
   Use macro \verb|\ig{width}{path-to-file}| for a single \textbf{centered} image:
   \ig{0.4}{example-image-a}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Figure environment}
+
+  Feel free to use the figure environment. Note that in the captions (also for tables) out template deliberately omits the label 'Figure:' before the caption:
+
+  \begin{figure}[H]
+    \includegraphics[width=0.5\textwidth]{example-image-a}
+    \caption{test}
+  \end{figure}
+
 \end{frame}
 
 \begin{frame}
