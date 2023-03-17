@@ -118,6 +118,7 @@ RWTH Aachen University}
   \framesubtitle{Good alternative to natbib}
 
   Sample citation:~\cite{BNPS2019}\\
+  Sample citation in parenthesis:~\parencite{BNPS2019}\\
   Sample full citation via \verb|\fullcite|\\[0.5cm]
   \fullcite{BNPS2019}.\\[0.5cm]
 
@@ -253,7 +254,7 @@ RWTH Aachen University}
   \frametitle{Useful macros}
 
   \begin{itemize}
-    \item Use \verb|\refer{...}| to refer a paper quickly (without the need for a bibfile entry): \refer{Hoos et al.}
+    \item Use \verb|\refer{...}| to refer a paper quickly (without the need for a bibfile entry): \refer{Bossek et al., 2019}
     \item Use \verb|\hide{...}| to temporarily hide block of code.
     \item Use \verb|\plainframe{...}| for a visually reduced frame with horizontally and vertically centered message/image (see next slides for examples).
     \item Use \verb|\plainframe[mycolor]{...}| to change the default background.
@@ -299,7 +300,7 @@ RWTH Aachen University}
 % REFERENCES
 % ==========
 
-\begin{frame}
+\begin{frame}[allowframebreaks]
   \frametitle{References}
   \printbibliography[heading=none]
 \end{frame}

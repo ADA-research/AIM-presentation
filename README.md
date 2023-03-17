@@ -21,3 +21,4 @@ RWTH Aachen University
 * v1.2.0 [2023/03/13] Minor update:
   * Changed citation style from alphabetic to authoryear
   * Caption of figures and tables now do not start with 'Figure' and 'Table' respectively
+  * Add option allowframebreaks to references slide
