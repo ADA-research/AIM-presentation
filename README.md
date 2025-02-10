@@ -3,7 +3,7 @@ Chair of AI Methodology (AIM) at
 RWTH Aachen University
 ===
 
-**Author**: Jakob Bossek, \\
+**Author**: Jakob Bossek,
 **Maintainer**: Julian Dierkes (dierkes@aim.rwth-aachen.de)
 
 ## Version history
