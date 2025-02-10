@@ -4,6 +4,7 @@ RWTH Aachen University
 ===
 
 **Author**: Jakob Bossek (bossek@aim.rwth-aachen.de)
+**Maintainer**: Julian Dierkes (dierkes@aim.rwth-aachen.de)
 
 ## Version history
 
