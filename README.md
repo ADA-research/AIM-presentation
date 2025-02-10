@@ -22,3 +22,6 @@ RWTH Aachen University
   * Changed citation style from alphabetic to authoryear
   * Caption of figures and tables now do not start with 'Figure' and 'Table' respectively
   * Add option allowframebreaks to references slide
+* v1.3.0 [2025/02/10] Minor clarifications:
+  * Asking students to go through the template briefly to catch all the subtleties
+  * Explicitly mentioning to keep slides simple and do not overwhelm listeners with busy figures, tables or walls of text
